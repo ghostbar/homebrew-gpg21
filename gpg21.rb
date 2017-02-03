@@ -103,7 +103,7 @@ class Gpg21 < Formula
     The new 2.1.x moves to a new keychain format that can't be
     and won't be understood by the 2.0.x branch or lower.
 
-    If you use this `gnupg21` formula for a while and decide
+    If you use this `gpg21` formula for a while and decide
     you don't like it, you will lose the keys you've imported since.
     For this reason, we strongly advise that you make a backup
     of your `~/.gnupg` directory.
@@ -111,7 +111,7 @@ class Gpg21 < Formula
     For full details of the changes, please visit:
       https://www.gnupg.org/faq/whats-new-in-2.1.html
 
-    If you are upgrading to gnupg21 from gnupg2 you should execute:
+    If you are upgrading to gpg21 from gnupg2 you should execute:
       `killall gpg-agent && gpg-agent --daemon`
     After install. See:
       https://github.com/Homebrew/homebrew-versions/issues/681
