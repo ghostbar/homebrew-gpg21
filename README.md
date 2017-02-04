@@ -5,4 +5,4 @@ patches required for DNS in newer versions to work before upstream adds them.
 
 ## How to use it?
 
-    brew install ghostbar/hombrew-gpg21/gpg21
+    brew install ghostbar/gpg21/gpg21
